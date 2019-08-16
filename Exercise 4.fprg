@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-08-17 12:19:16 AM"/>
+        <attribute name="created" value="YWNlcjtERVNLVE9QLTA1Vk0wSTI7MjU2Mi0wOC0xNjswOToyMjo1NyBQTTsyNzI4"/>
+        <attribute name="edited" value="YWNlcjtERVNLVE9QLTA1Vk0wSTI7MjU2Mi0wOC0xNzsxMjoxOToxNiBBTTsxOzI4MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="F" type="String" array="False" size=""/>
+            <assign variable="F" expression="&quot;Foundation English&quot;"/>
+            <declare name="G" type="String" array="False" size=""/>
+            <assign variable="G" expression="&quot;General Business&quot;"/>
+            <declare name="I" type="String" array="False" size=""/>
+            <assign variable="I" expression="&quot;Introduction to Computer Systems&quot;"/>
+            <declare name="C" type="String" array="False" size=""/>
+            <assign variable="C" expression="&quot;Computer Programming&quot;"/>
+            <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3588;&#3632;&#3649;&#3609;&#3609;&#3623;&#3636;&#3594;&#3634; Foundation English &#3607;&#3637;&#3656;&#3652;&#3604;&#3657;&quot;" newline="True"/>
+            <input variable="F"/>
+            <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3588;&#3632;&#3649;&#3609;&#3609;&#3623;&#3636;&#3594;&#3634; General Business &#3607;&#3637;&#3656;&#3652;&#3604;&#3657;&quot;" newline="True"/>
+            <input variable="G"/>
+            <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3588;&#3632;&#3649;&#3609;&#3609;&#3623;&#3636;&#3594;&#3634; Introduction to Computer Systems&quot;" newline="True"/>
+            <input variable="I"/>
+            <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3588;&#3632;&#3649;&#3609;&#3609;&#3623;&#3636;&#3594;&#3634; Computer Programming &#3607;&#3637;&#3656;&#3652;&#3604;&#3657;&quot;" newline="True"/>
+            <input variable="C"/>
+            <output expression="&quot;---You Score---&quot;" newline="True"/>
+            <output expression="&quot;Foundation English=&quot;&amp;F" newline="True"/>
+            <output expression="&quot;General Business=&quot;&amp;G" newline="True"/>
+            <output expression="&quot;Introduction to Computer Systems=&quot;&amp;I" newline="True"/>
+            <output expression="&quot;Computer Programming=&quot;&amp;C" newline="True"/>
+            <output expression="&quot;You are very good.! Good luck in other subjects.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
